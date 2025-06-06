@@ -16,4 +16,11 @@ First introduced [Shazeer, 2019](https://arxiv.org/pdf/1911.02150), MQA maintain
 
 Ran using Modal's NVIDIA A10G GPU.
 
-[Config file](./config.yml)
+## Project Info
+Run benchmark on local CPU: `python mqa_transformer/start_benchmark.py`
+
+Run benchmark on GPU (Modal): `python mqa_transformer/run_modal.py`
+
+Model Implementation w/ MQA: [model.py](./mqa_transformer/model.py)
+
+Configuration: The benchmark configuration settings are defined in [config.yml](./config.yml)
