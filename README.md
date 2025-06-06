@@ -23,4 +23,4 @@ Run benchmark on GPU (Modal): `python mqa_transformer/run_modal.py`
 
 Model Implementation w/ MQA: [model.py](./mqa_transformer/model.py)
 
-Configuration: The benchmark configuration settings are defined in [config.yml](./config.yml)
+Benchmark Configuration: [config.yml](./config.yml)
