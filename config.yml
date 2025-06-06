@@ -1,0 +1,26 @@
+models:
+  small:
+    vocab_size: 50257
+    dim: 384
+    n_heads: 6
+    n_layers: 6
+    max_seq: 512
+    dropout: 0.1
+    mqa: true
+    use_kv_cache: true
+
+  large:
+    vocab_size: 50257
+    dim: 768
+    n_heads: 12
+    n_layers: 12
+    max_seq: 512
+    dropout: 0.1
+    mqa: true
+    use_kv_cache: true
+
+benchmark:
+  batch_size: 1 # real-time inference benchmarking
+  device: "cuda" # "cpu"
+  trials: 3
+  seed: 1
